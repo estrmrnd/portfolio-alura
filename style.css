@@ -118,19 +118,93 @@ section.skills{
     padding-top: 0;    
 }
 
+.skills__title{
+    text-align: center;
+}
+
+.skills__box{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background-color: #fff;
+    align-items: end;
+}
+
+.skills__name{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+.skills__line{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
 .skills__img{
 }
 
 /*Sessão Hobbies*/
 
 section.hobbies{
-    
+    padding: 10%;
+    padding-top: 0; 
 }
+
+.hobbies__title{
+    text-align: center;
+}
+
+.hobbies__line{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.hobbies__box{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    background-color: #fff;
+    align-items: end;
+}
+
+.hobbies__name{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: end;
+}
+
 
 /* Experiência Acadêmica*/
 
 section.academic{
+    padding: 10%;
+    padding-top: 0;
+}
 
+.academic__title{
+    text-align: center;
+}
+
+.academic__courses{
+    display: flex;
+    gap: 32px;
+}
+
+/* .academic__courses__box{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    align-items: end;
+} */
+
+.academic__courses__list{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
 }
 
 /* experiência*/
