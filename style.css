@@ -49,9 +49,17 @@ section.menu{
 header{
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 32px 0 0 32px;
-    
+    gap: 15px;    
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    align-items: center;
+    padding: 32px;
 }
 
 .menu__title{
@@ -62,7 +70,6 @@ header{
     gap: 32px;
     align-items: center;
     font-size: 1rem;
-    
 }
 .menu li{
     display: inline-block;
@@ -71,6 +78,7 @@ header{
 .menu a{
     display: block;
     text-decoration: none;
+    color: #464646;
 }
 
 .menu a:hover{
@@ -81,52 +89,94 @@ header{
 
 /*Sessão Title*/
 
-section.title{
-}
+/* section.title{
+    width: 368px;
+    height: 368px;
+    display: flex;
+} */
 
 .title{
-    padding: 10%;
-    padding-bottom: 0;
+    margin: 32px o;
+    height: 368px;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.title__profile{
+    width: 368px;
+    height: 368px;
 }
 
 .title__bio{
     display: flex;
     font-size: 3.25rem;
+    color: #464646;
 }
 
 .title__subsection{
     display: flex;
-    font-size: 1.75rem;
+    font-size: 1.375rem;
+    color: #464646;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+
 }
 
 .title__network__item{
     display: inline-block;
     font-size: 1rem;
-    gap: 32px;
+    color: #464646;
 }
 
 .title__network{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding: 0;
+    font-weight: 500;
     
 }
 
 /*Sessão About*/
 
 section.about{
-    padding: 10%;
+    background-color: #EAF2FD;
+    padding: 64px 150px;
+    margin: 100px 0px 32px 0px;
 }
 
 .about__container{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    text-align: left;
+}
+.about__paragraph{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: left;
+
 }
 
 /*Sessão Skills*/
 
 section.skills{
-    padding: 10%;
+    padding: 88px;
     padding-top: 0;    
 }
 
 .skills__title{
     text-align: center;
+    color: #464646;
 }
 
 .skills__box{
@@ -140,6 +190,7 @@ section.skills{
 .skills__name{
     font-size: 1rem;
     font-weight: 700;
+    color: #464646;
     text-align: end;
 }
 
@@ -149,18 +200,16 @@ section.skills{
     justify-content: center;
 }
 
-.skills__img{
-}
-
 /*Sessão Hobbies*/
 
 section.hobbies{
-    padding: 10%;
+    padding: 88px;
     padding-top: 0; 
 }
 
 .hobbies__title{
     text-align: center;
+    color: #464646;
 }
 
 .hobbies__line{
@@ -180,19 +229,21 @@ section.hobbies{
 .hobbies__name{
     font-size: 1rem;
     font-weight: 700;
-    text-align: end;
+    color: #464646;
 }
 
 
 /* Experiência Acadêmica*/
 
 section.academic{
-    padding: 10%;
-    padding-top: 0;
+    background-color: #EAF2FD;
+    padding: 64px 150px;
+    margin: 100px 0px 32px 0px;
 }
 
 .academic__title{
     text-align: center;
+    color: #464646;
 }
 
 .academic__courses{
@@ -200,29 +251,128 @@ section.academic{
     gap: 32px;
 }
 
-/* .academic__courses__box{
+.academic__courses__item__img{
     display: flex;
-    width: 200px;
-    height: 150px;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
-    align-items: end;
-} */
+    width: 270px;
+    height: 220px;
+}
 
 .academic__courses__list{
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left; 
+    color: #464646;
+}
+
+.academic__courses__item__subtitle{
+    font-family: Raleway;
     font-size: 1rem;
     font-weight: 500;
-    text-align: justify;
+    line-height: 18.78px;
+    text-align: left;
+
+}
+
+.experience__section__title{
+    text-align: center;
+}
+
+.experience__info{
+    display: inline-grid;
+    font-family: Raleway;
+    font-size: 1.575rem;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left;
+    color: #464646;
+
+
+}
+
+.experience__text{
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+    
 }
 
 /* experiência*/
 
 section.experience{
+    padding: 88px;
+    padding-top: 0; 
+}
+
+.experience__section__title{
+    text-align: center;
+    color: #464646;
+
+}
+
+.experience__img{
+    box-shadow: 0px 24px 32px -8px #00000014;
+    border-radius: 10px;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    width: 1136px;
+    height: 406px;
+}
+
+.experiencie__box:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.experiencia__botao--repo{
+    border: 1px solid #2A7AE4;
+    background-color: transparent;
+    width: 116px;
+    height: 51px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    display: inline-grid;
+    color: #2A7AE4;
+    
+
+}
+
+.experiencia__botao--demo{
+    width: 105px;
+    height: 51px;
+    padding: 16px 0px 0px 0px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    display: inline-grid;
+    background-color: #2A7AE4;
+    color: #fff;
+    border:#2A7AE4
+    
+
 
 }
 
 /*Contato*/
 
 section.formcontato{
+    background-color: #EAF2FD;
+    padding: 64px 150px;
+    margin: 100px 0px 32px 0px;
 
 }
 
