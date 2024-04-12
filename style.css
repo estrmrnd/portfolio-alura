@@ -753,9 +753,6 @@ section.footer{
 section.menu{
     width: 360px;
     height: 56px;
-    padding: 16px 0px 0px 0px;
-    gap: 0px;
-    justify-content: space-between;
 }
 
 .menu__list__item__contato{
@@ -774,18 +771,70 @@ text-align: left;
 }
 
 .title__subsection{
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 0.875rem;
     line-height: 16.44px;
     text-align: left;
 
 }
+
+.title__network{
+    width: 318px;
+    height: 16px;
+    gap: 8px;
+}
+
+.title__network__item{
+    width: 45px;
+    height: 16px;
+}
 /*Sessão sobre*/
+
+section.about{
+    width: 360px;
+    height: auto;
+    padding: 16px;
+}
+
+.about__container{
+    width: 360px;
+    height: auto;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+}
 
 /*Skills*/
 
+.skills__line{
+    width: 328px;
+    height: auto;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.skills__box{
+    width: 110px;
+    height: 118px;
+    padding: 16px;
+}
+
+.skills__name{
+    line-height: 18.78px;
+}
+
 /*Hobbies*/
+
+.hobbies__line{
+    width: 328px;
+    height: auto;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.hobbies__box{
+    width: 110px;
+    height: 118px;
+    padding: 16px;
+}
  
 /*Formação Acadêmica*/
 
