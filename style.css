@@ -13,16 +13,11 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
-    margin: 0;
+    margin: 0 10.5% 0 10.5%;
     padding: 0;
     line-height: 1;
     border: 0;
 }
-
-.all{
-    width: 100%;
-}
-
 
 ol, ul,li {
     list-style: none;
@@ -66,7 +61,7 @@ header{
 }
 .menu{
     align-items: center;
-    padding: 32px;
+    padding: 32px 0 32px 0;
 }
 
 .menu__title{
@@ -108,7 +103,6 @@ header{
 } */
 
 .title{
-    margin: 32px 0;
     height: 368px;
 }
 
@@ -116,7 +110,6 @@ header{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 0 150px;
 }
 
 .title__profile{
@@ -161,8 +154,7 @@ header{
 
 section.about{
     background-color: #EAF2FD;
-    padding: 64px 150px;
-    margin: 100px 0px 32px 0px;
+    padding: 64px 20px;
 }
 
 .about__container{
@@ -250,8 +242,6 @@ section.hobbies{
 
 section.academic{
     background-color: #EAF2FD;
-    box-sizing: border-box;
-    margin: 100px 0px 32px 0px;
 }
 
 .academic__title{
@@ -261,7 +251,7 @@ section.academic{
 
 .academic__courses{
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .academic__courses__item__img{
@@ -338,14 +328,10 @@ section.academic{
 
 .experiencie__box{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px 0;
-    width: 1136px;
-    height: 406px;
-    padding: 88px;
-    padding-top: 0; 
+    justify-content: start;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .experiencie__box:nth-child(odd){
@@ -389,7 +375,6 @@ section.academic{
 section.formcontato{
     background-color: #EAF2FD;
     padding: 64px 150px;
-    margin: 100px 0px 32px 0px;
 
 }
 
@@ -485,8 +470,11 @@ utilize como referência os breakpoints @media abaixo*/
 /*Tablet*/
 @media screen and (max-width: 768px) {
 
-
 /* Menu */
+
+body{
+    margin: 0;
+}
 
 section.menu{
     padding: 16px 32px 16px 32px
@@ -517,7 +505,6 @@ section.menu{
 .title__div{
     justify-content: space-between;
     align-items: center;
-    margin: 16px 32px;
 }
 
 .title{
@@ -558,7 +545,6 @@ section.menu{
 
 section.about{
     padding: 32px;
-    margin: 0;
 }
 
 .about__container{
@@ -629,7 +615,6 @@ section.hobbies{
 
 section.academic{
     padding: 16px;
-    margin: 0;
 }
 
 .academic__title{
@@ -717,7 +702,6 @@ text-align: left;
 /* CONTATO */
 
 section.formcontato{
-    margin: 0;
     padding: 0;
 }
 

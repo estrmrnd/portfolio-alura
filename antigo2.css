@@ -257,8 +257,9 @@ section.hobbies {
 
 section.academic {
     background-color: #EAF2FD;
-    padding: 64px 150px;
-    margin: 100px 0px 32px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: ;
 }
 
 .academic__title {
@@ -267,7 +268,6 @@ section.academic {
 }
 
 .academic__courses {
-    display: flex;
     gap: 32px;
 }
 
