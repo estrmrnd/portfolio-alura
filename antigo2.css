@@ -1,11 +1,11 @@
-/*CSS Reset / Normalize*/
+CSS Reset / Normalize*/
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root {
+/* :root { */
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-    --cor-de-fundo: #f1f2f6;
+    /* --cor-de-fundo: #f1f2f6;
     --cor-de-link: #000;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .all {
     width: 100%;
-}
+} */
 
 /* section{
     width: 100%;
@@ -52,7 +52,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
 
-section.menu {
+/* section.menu {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -103,7 +103,7 @@ header {
     background-color: aliceblue;
     color: black;
     border-radius: 10px;
-}
+} */
 
 /*Sessão Title*/
 
@@ -112,7 +112,7 @@ header {
     height: 368px;
     display: flex;
 } */
-
+/* 
 .title {
     margin: 32px 0;
     height: 368px;
@@ -160,11 +160,11 @@ header {
     padding: 0;
     font-weight: 500;
 
-}
+} */
 
 /*Sessão About*/
 
-section.about {
+/* section.about {
     width: 100%;
     background-color: #EAF2FD;
     padding: 64px 150px;
@@ -185,11 +185,11 @@ section.about {
     line-height: 18.78px;
     text-align: left;
 
-}
+} */
 
 /*Sessão Skills*/
 
-section.skills {
+/* section.skills {
     padding: 88px;
     padding-top: 0;
 }
@@ -218,10 +218,10 @@ section.skills {
     display: flex;
     gap: 32px;
     justify-content: center;
-}
+} */
 
 /*Sessão Hobbies*/
-
+/* 
 section.hobbies {
     padding: 88px;
     padding-top: 0;
@@ -250,12 +250,12 @@ section.hobbies {
     font-size: 1rem;
     font-weight: 700;
     color: #464646;
-}
+} */
 
 
 /* Experiência Acadêmica*/
 
-section.academic {
+/* section.academic {
     background-color: #EAF2FD;
     display: flex;
     flex-direction: column;
@@ -321,7 +321,7 @@ section.academic {
     line-height: 18.78px;
     text-align: left;
 
-}
+} */
 
 /* experiência*/
 
@@ -330,7 +330,7 @@ section.academic {
     padding-top: 0; 
 } */
 
-.experience__section__title {
+/* .experience__section__title {
     text-align: center;
     color: #464646;
 
@@ -386,11 +386,11 @@ section.academic {
     background-color: #2A7AE4;
     color: #fff;
     border: #2A7AE4
-}
+} */
 
 /*Contato*/
 
-section.formcontato {
+/* section.formcontato {
     background-color: #EAF2FD;
 }
 
@@ -460,10 +460,10 @@ section.formcontato {
     background-color: #2A7AE4;
     color: #fff;
     border: #2A7AE4
-}
+} */
 
 /*footeer*/
-
+/* 
 section.footer {
     background-color: #fff;
     height: 102px;
@@ -478,7 +478,7 @@ section.footer {
     line-height: 18.78px;
     text-align: center;
     color: #464646;
-}
+} */
 
 
 
@@ -486,11 +486,11 @@ section.footer {
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) { */
 
 
     /* Menu */
-
+/* 
     section.menu {
         padding: 16px 32px 16px 32px
     }
@@ -512,12 +512,12 @@ utilize como referência os breakpoints @media abaixo*/
         color: #464646;
         line-height: 18.78px;
         opacity: 100%;
-    }
+    } */
 
 
     /*title*/
 
-    .title__div {
+    /* .title__div {
         justify-content: space-between;
         align-items: center;
         margin: 16px 32px;
@@ -554,11 +554,11 @@ utilize como referência os breakpoints @media abaixo*/
         height: 24px;
         gap: 32px;
 
-    }
+    } */
 
     /* ABOUT  */
 
-    section.about {
+    /* section.about {
         box-sizing: border-box;
         padding: 32px;
         margin: 0;
@@ -577,11 +577,11 @@ utilize como referência os breakpoints @media abaixo*/
         font-size: 0.875rem;
         color: #464646;
         line-height: 16.44px;
-    }
+    } */
 
     /*Skills*/
 
-    section.skills {
+    /* section.skills {
         padding: 16px;
     }
 
@@ -601,11 +601,11 @@ utilize como referência os breakpoints @media abaixo*/
     .skills__box {
         width: 244px;
         height: 118px;
-    }
+    } */
 
     /*Hobbies*/
 
-    section.hobbies {
+    /* section.hobbies {
         padding: 16px;
     }
 
@@ -625,10 +625,10 @@ utilize como referência os breakpoints @media abaixo*/
     .hobbies__box {
         width: 244px;
         height: 118px;
-    }
+    } */
 
     /*Experiências acadêmicas*/
-
+/* 
     section.academic {
         padding: 16px;
         margin: 0;
@@ -656,11 +656,11 @@ utilize como referência os breakpoints @media abaixo*/
         font-weight: 500;
         line-height: 16.44px;
         text-align: left;
-    }
+    } */
 
     /*Expeirência profissional*/
 
-    section.experience {}
+    /* section.experience {}
 
     .experiencie__box {
         flex-direction: column;
@@ -717,7 +717,7 @@ utilize como referência os breakpoints @media abaixo*/
 
     /* CONTATO */
 
-    section.formcontato {
+    /* section.formcontato {
         margin: 0;
         padding: 0;
     }
@@ -752,7 +752,7 @@ utilize como referência os breakpoints @media abaixo*/
         width: 768px;
     }
 
-}
+}  */
 
 /* Mobile */
 
@@ -930,4 +930,4 @@ utilize como referência os breakpoints @media abaixo*/
     width: auto;
 }
 
-} */
+}
