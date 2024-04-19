@@ -1,0 +1,28 @@
+/*footeer*/
+
+section.footer{
+    background-color: #fff; 
+}
+
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+/* Mobile */
+@media screen and (max-width: 360px){
+
+    /*Footer*/
+    
+        section.footer{
+            width: 100%;
+        }
+    }
+    

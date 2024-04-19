@@ -1,0 +1,137 @@
+/*Sessão Title*/
+
+.title{
+    /* height: 368px; */
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.title__profile{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
+.title__container{
+    margin: 10.5%;
+}
+
+.title__bio{
+    display: flex;
+    font-size: 3.25rem;
+    color: #464646;
+}
+
+.title__subsection{
+    display: flex;
+    font-size: 1.375rem;
+    color: #464646;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+
+}
+
+.title__network{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 450px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    gap: 2rem;
+    color: #464646;
+    
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+        /*title*/
+    
+    .title__div{
+        justify-content: space-between;
+        align-items: center;
+    }
+        
+    .title{
+        height: auto;
+        margin: 2rem;
+    }
+        
+        .title__profile{
+            width: 146px;
+            height: auto;
+        }
+        
+        .title__bio{
+            font-family: Raleway;
+            font-size: 1.375rem;
+            font-weight: 700;
+            line-height: 25.83px;
+            text-align: left;
+            color: #464646;
+        }
+        
+        .title__subsection{
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18.78px;
+            text-align: left;
+            color: #464646;
+        }
+        
+        .title__network{
+            width: 467px;
+            height: 24px;
+            gap: 32px;
+        
+        }
+    }
+
+/* Mobile */
+@media screen and (max-width: 360px){
+
+    /*Titulo*/
+    
+    section.title{
+        margin: 1rem;
+    }
+    
+    .title__div{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .title__profile{
+        width: 98px;
+        height: 98px;
+    }
+    
+    .title__container{
+        margin: 0;
+    }
+    
+    .title__subsection{
+        font-size: 0.875rem;
+        line-height: 16.44px;
+    }
+    
+    .title__network{
+        width: 100%;
+        height: 16px;
+    }
+    
+    .title__network__item{
+        font-size: 0.875rem;
+        font-weight: 600;
+    } 
+}

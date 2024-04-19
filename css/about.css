@@ -1,0 +1,72 @@
+/*Sessão About*/
+
+section.about{
+    background-color: #EAF2FD;
+}
+
+.about__container{
+    /* margin: 10% 10% 0; */
+    padding: 64px 20px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    text-align: left;
+}
+
+.about__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.about__paragraph{
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 18.78px;
+    color: #464646;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+ /* ABOUT  */
+    
+ section.about{
+    padding: 32px;
+}
+
+.about__container{
+    /* width: 600px; */
+    margin: 0;
+    padding: 2rem;
+}
+
+.about__title{
+    font-size: 1.375rem;
+    line-height: 25.83px;
+}
+
+.about__paragraph{
+    font-size: 0.875rem;
+    line-height: 16.44px;
+}
+}
+
+/* Mobile */
+@media screen and (max-width: 360px){
+
+    /*Sessão sobre*/
+    
+    section.about{
+        padding: 1rem;
+    }
+    
+    .about__container{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .about__title{
+        margin: 0;
+    }
+}

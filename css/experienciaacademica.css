@@ -1,0 +1,93 @@
+/* Experiência Acadêmica*/
+
+section.academic{
+    background-color: #EAF2FD;
+}
+
+.academic__title{
+    text-align: center;
+    color: #464646;
+}
+
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__courses__item__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 270px;
+    height: 220px;
+}
+
+.academic__courses__list{
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left; 
+    color: #464646;
+}
+
+.academic__courses__item__subtitle{
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+
+}
+
+
+/* tablet */
+@media screen and (max-width: 768px) {
+        
+    /*Experiências acadêmicas*/
+    
+    section.academic{
+        padding: 16px;
+    }
+    
+    .academic__title{
+        font-size: 1.375rem;
+        line-height: 25.83px;
+    }
+    
+    .academic__courses{
+        flex-wrap: wrap;
+    }
+    
+    .academic__courses__item__title{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: left;
+    color: #464646;
+    }
+    
+    .academic__courses__item__subtitle{
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 16.44px;
+        text-align: left;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 360px){
+
+    /*Formação Acadêmica*/
+
+.academic__courses{
+    /* flex-direction: column; */
+    margin: 0;
+}
+
+.academic__courses__item__img{
+    width: 296px;
+    height: 118px;
+}
+}
