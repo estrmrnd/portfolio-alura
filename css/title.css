@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    margin: 0 10.5%;
+    max-width: 1440px;
 }
 
 .title__profile{
@@ -19,7 +21,7 @@
 }
 
 .title__container{
-    margin: 10.5%;
+    /* margin: 10.5%; */
 }
 
 .title__bio{
@@ -53,7 +55,7 @@
 }
 
 /*Tablet*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
         /*title*/
     
     .title__div{
@@ -98,7 +100,7 @@
     }
 
 /* Mobile */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
 
     /*Titulo*/
     
@@ -108,7 +110,9 @@
     
     .title__div{
         flex-direction: column;
+        justify-content: right;
         align-items: flex-start;
+        margin: 0;
     }
     
     .title__profile{

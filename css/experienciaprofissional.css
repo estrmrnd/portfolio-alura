@@ -2,7 +2,7 @@
 
 section.experience{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 10.5%;
     padding: 2rem 0;
     display: flex;
     flex-direction: column;
@@ -90,12 +90,11 @@ section.experience{
 }
 
 /* tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
     
     /*Expeirência profissional*/
     
     section.experience{
-        margin: 0;
         gap: 4rem;
     
     }
@@ -154,13 +153,14 @@ section.experience{
 }
 
 /* Mobile */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
 
  
     /*Experiência Profissional*/
     
     section.experience{
         padding: 2rem;
+        margin: 0;
     }
     
     .experiencie__box{

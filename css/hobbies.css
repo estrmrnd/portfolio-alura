@@ -3,6 +3,8 @@
 section.hobbies{
     padding: 88px;
     padding-top: 0; 
+    margin: 0 10.5%;
+    max-width: 100%;
 }
 
 .hobbies__title{
@@ -32,7 +34,7 @@ section.hobbies{
 
 
 /* tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
 /*Hobbies*/
     
 section.hobbies{
@@ -59,7 +61,7 @@ section.hobbies{
 }
 
 /* Mobile */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
 
     /*Hobbies*/
     
@@ -79,3 +81,9 @@ section.hobbies{
     }
 }
 
+@media screen and (max-width: 767px) {
+
+    section.hobbies{
+        margin: 0;
+    }
+}

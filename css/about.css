@@ -5,12 +5,13 @@ section.about{
 }
 
 .about__container{
-    /* margin: 10% 10% 0; */
+    margin: 0 10.5%;
     padding: 64px 20px;
     font-size: 32px;
     font-weight: 700;
     line-height: 37.57px;
     text-align: left;
+    max-width: 1440px;
 }
 
 .about__title{
@@ -28,7 +29,7 @@ section.about{
 }
 
 /*Tablet*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
  /* ABOUT  */
     
  section.about{
@@ -53,7 +54,7 @@ section.about{
 }
 
 /* Mobile */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
 
     /*Sessão sobre*/
     

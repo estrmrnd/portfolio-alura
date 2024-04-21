@@ -7,11 +7,13 @@ section.academic{
 .academic__title{
     text-align: center;
     color: #464646;
+    padding-top: 82px;
 }
 
 .academic__courses{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin: 0 10.5%;
 }
 
 .academic__courses__item__img{
@@ -43,7 +45,7 @@ section.academic{
 
 
 /* tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
         
     /*Experiências acadêmicas*/
     
@@ -54,6 +56,7 @@ section.academic{
     .academic__title{
         font-size: 1.375rem;
         line-height: 25.83px;
+        padding-top: 0;
     }
     
     .academic__courses{
@@ -77,7 +80,7 @@ section.academic{
 }
 
 /* Mobile */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 767px){
 
     /*Formação Acadêmica*/
 
