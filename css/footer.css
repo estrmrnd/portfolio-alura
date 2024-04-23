@@ -16,6 +16,14 @@ section.footer{
     color: #464646;
 }
 
+/* tablet */
+@media screen and (max-width: 1220px){
+    
+    section.footer{
+        width: 100%;
+    }
+}
+
 /* Mobile */
 @media screen and (max-width: 767px){
 
